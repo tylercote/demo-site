@@ -1,0 +1,17 @@
+.home-image-container {
+  background-image: url(media/advice-advise-advisor-7096.jpg);
+  background-size: cover;
+  height: 500px;
+}
+
+.home-picture-text {
+  color: white;
+}
+
+.translucent {
+  background-color: rgba(240,240,240,0.3);
+}
+
+.footer {
+  font-size: 11px;
+}
