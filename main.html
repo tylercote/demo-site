@@ -12,96 +12,147 @@
 
     <title>Hello, world!</title>
   </head>
-  <body>
-      <div class="home-image-container">
+  <body id="bootstrap-overrides">
+      <div class="home-image-container container-fluid" style="background-image: url(media/advice-advise-advisor-7096.jpg)">
         <div class="row nav-bar">
           <div class="col justify-content-left">
-            <img src="media/SDBCTransLogo.png" style="height: 70px; padding-left: 20px"></img>
+            <img src="media/SDBCTransLogo.png" style="height: 70px; padding-left: 20px">
           </div>
-          <div class="col-auto">
-            <ul class="nav justify-content-center">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Services</a>
-                <div class="dropdown-menu">
-                  <a href="#" class="dropdown-item">1</a>
-                  <a href="#" class="dropdown-item">2</a>
-                </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Resources</a>
-                <div class="dropdown-menu">
-                  <a href="#" class="dropdown-item">1</a>
-                  <a href="#" class="dropdown-item">2</a>
-                </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">About</a>
-                <div class="dropdown-menu">
-                  <a href="#" class="dropdown-item">1</a>
-                  <a href="#" class="dropdown-item">2</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
-              </li>
-            </ul>
+          <div class="col-auto nav-buttons rounded-bottom">
+              <nav class="navbar navbar-expand-lg">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="nav justify-content-center">
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Home</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Services</a>
+                              <div class="dropdown-menu">
+                                  <a href="#" class="dropdown-item">1</a>
+                                  <a href="#" class="dropdown-item">2</a>
+                              </div>
+                          </li>
+                          <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Resources</a>
+                              <div class="dropdown-menu">
+                                  <a href="#" class="dropdown-item">1</a>
+                                  <a href="#" class="dropdown-item">2</a>
+                              </div>
+                          </li>
+                          <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">About</a>
+                              <div class="dropdown-menu">
+                                  <a href="#" class="dropdown-item">1</a>
+                                  <a href="#" class="dropdown-item">2</a>
+                              </div>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Contact Us</a>
+                          </li>
+                      </ul>
+                  </div>
+              </nav>
           </div>
-          <div class="col justify-content-right">
-            <h4>Logout Here</h4>
+          <div class="col nav-buttons text-right" style="padding-top: 15px">
+              <a href="https://clients.virginiasbdc.org/reg.aspx?mode=signin&origurl=%2fdashboard.aspx">Client Login</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="http://msdemo.biz/login">Employee Login</a>
           </div>
         </div>
 
         <div class="row home-picture-text align-items-center">
-          <div class="col text-center flex-column" style="height: 100%">
+          <div class="col text-center flex-column" style="padding-top: 35px">
               <h1>Mason</h1>
               <h2><i>Small Business Development Center</i></h2>
-              <h3>Providing guidance that will turn your ideas into an enterprise</h2>
+              <h3>Providing guidance that will turn your ideas into an enterprise</h3>
               <h3>Serving Northern Virginia's small businesses through <em>FREE</em> counseling</h3>
-              <button type="button">Learn more</button>
+              <button class="btn btn-lg btn-primary" type="button">Learn more</button>
           </div>
         </div>
-        <div class="row align-self-end translucent">Get in touch with our professionals today! Schedule a FREE consultation. <button type="button">Get Started</button></div>
       </div>
-      <div class="info-container">
-        <div class="row align-items-center">
-          <div class="col">
-            Start your business
+      <div class="container-fluid">
+          <div class="row align-items-center justify-content-center" id="homeContact">
+              <div class="col text-center">
+                  <h4>Get in touch with our professionals today! Schedule a <em style="color: white">FREE</em> consultation. <button class="btn btn-success" type="button">Get Started</button></h4>
+              </div>
           </div>
-          <div class="col">
-            Grow your business
+          <div class="row info-row">
+              <div class="col">
+                  <hr>
+                  <h4>Free counseling?</h4>
+                  <hr>
+                  Mason SBDC (Mason Small Business Development Center) provides counseling
+                  services at no costs thanks to our sponsors, U.S. SBA, Gorge Mason University
+                  and Virginia SBDC, to local entrepreneurs in Fairfax, Arlington,
+                  and Prince William Counties. Our core counseling areas are business planning,
+                  marketing, and finance.
+                  Interested in our services? Have some questions to ask? Please contact us
+                  at <a href="#">help@masonsbdc.org</a> or <a href="#">(703) 277-7708</a> , and we will be happy to help.
+              </div>
+              <div class="col">
+                  <hr>
+                  <h4>What do our clients think?</h4>
+                  <hr>
+                  <div id="carouselControls" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                          <div class="carousel-item active">
+                              <i class="fas fa-quote-left"></i>
+                              <p>We have had this service [Bid Match Service Subscription] for a number of years and find it very useful</p>
+                              <h6>Michael Thornton Sr., Visionary Consulting Partners LLC (June 2017)</h6>
+                          </div>
+                          <div class="carousel-item">
+                              <i class="fas fa-quote-left"></i>
+                              <p>I’ve been managing proposals and creating/administrating SharePoint libraries for over 10 years, but I learned more efficient and effective ways to manage my proposal library. The information was presented professionally and timely. The instructor was engaging and stopped after each major section to take questions. By far the best webinar I’ve attended in a while.</p>
+                              <h6>Dana Grizzle, Command Post Technologies, Inc. (December 2017)</h6>
+                          </div>
+                          <div class="carousel-item">
+                              <i class="fas fa-quote-left"></i>
+                              <p>I want to say how happy I am with my PTAP representative, Linda Owen. She has been a mentor and a constant support to me. I have been very successful in the 8(a) and woman-owned small business programs because of her guidance. She educated me about the HubZone program and due to her guidance we have decided to go after our HubZone Certification. Linda Owen is a true asset to the PTAP program and we wish that everyone PTAP had a representative like her.</p>
+                              <h6>Vibha Vermani, CEO, Chitra Productions (February 2018)</h6>
+                          </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                      </a>
+                  </div>
+              </div>
           </div>
-          <div class="col">
-            Resources
-          </div>
-        <div class="<row></row>">
-          <div class="col text-center">
-            <h4>How can we provide free counseling?</h4>
-            <hr>
-            Mason SBDC (Mason Small Business Development Center) provides counseling
-            services at no costs thanks to our sponsors, U.S. SBA, Gorge Mason University
-             and Virginia SBDC, to local entrepreneurs in Fairfax, Arlington,
-              and Prince William Counties. Our core counseling areas are business planning,
-              marketing, and finance.
-            Interested in our services? Have some questions to ask? Please contact us
-             at <a href="#">help@masonsbdc.org</a> or <a href="#">(703) 277-7708</a> , and we will be happy to help.
-          </div>
-          <div class="col text-center">
-            <h4>What our clients say about us</h4>
-            <hr>
-            Carousel             Carousel
-            Carousel
-            Carousel
-            Carousel
-            Carousel
-            Carousel
+      </div>
 
+      <div class="container-fluid">
+          <div class="row align-items-center justify-content-between home-image-container" style="background-image: url(media/Home2.jpg)">
+              <div class="col-sm-1"></div>
+              <div class="col-sm-4 text-center flex-column info-card rounded">
+                  <i class="fas fa-user-tie fa-3x"></i>
+                  <h3>Start your business</h3>
+                  <p>Join fellow entrepreneurs in a 2-hour session to learn the legal and administrative steps to starting a business or marketing 101 for a small business and more. Let us help provide you with a strong foundation that will lead your idea into a successful small business.</p>
+              </div>
+              <div class="col-sm-1"></div>
+              <div class="col-sm-4 text-center flex-column info-card rounded">
+                  <i class="fas fa-tree fa-3x"></i>
+                  <h3>Grow your business</h3>
+                  <p>Running your small business alone can be challenging. If you need help with your small business, register with us for an individual counseling and let us help you grow your ongoing business with advice from our experienced senior business counselors and resources. Counseling is provided in the following areas: marketing, finance and business planning and strategy. We will help you throughout your business process.</p>
+              </div>
+              <div class="col-sm-1"></div>
           </div>
-        </div>
+      </div>
+
+      <div class="info-container container-fluid">
         <div class="row footer">
-          <div class="col">SOCIAL ICONS HERE</div>
+          <div class="col">
+              <i class="fab fa-facebook-square fa-3x"></i>
+              <i class="fab fa-linkedin fa-3x"></i>
+              <i class="fab fa-twitter-square fa-3x"></i>
+              <i class="fab fa-instagram fa-3x"></i>
+              <i class="fab fa-google-plus-square fa-3x"></i>
+              <i class="fas fa-align-left fa-3x"></i>
+          </div>
           <div class="col text-center flex-column">
             4031 University Drive</br>
             Fairfax, VA 22030</br>
@@ -118,7 +169,7 @@
             <img src="media/vsbdclogo_3.png" style="height: 70px; width: 100px">
           </div>
           <div class="col">
-            Copyright Mittal Solutions 2018
+              <i class="fas fa-copyright"></i> Mittal Solutions 2018
           </div>
         </div>
       </div>

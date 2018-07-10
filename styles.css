@@ -1,17 +1,57 @@
 .home-image-container {
-  background-image: url(media/advice-advise-advisor-7096.jpg);
-  background-size: cover;
-  height: 500px;
+    background-size: cover;
+    height: 500px;
 }
 
 .home-picture-text {
-  color: white;
-}
-
-.translucent {
-  background-color: rgba(240,240,240,0.3);
+     color: white;
 }
 
 .footer {
-  font-size: 11px;
+    font-size: 11px;
+    background-color: rgba(11, 13, 12, 0.74);
+    padding-top: 7px;
+    padding-bottom: 5px;
+    color: lightgrey;
+    -webkit-box-shadow: 10px 5px 5px 5px #000000;
+    -moz-box-shadow: 10px 5px 5px 5px #000000;
+    box-shadow: 10px 5px 5px 5px #000000;
 }
+
+.info-card {
+    background-color: white;
+    max-width: 250px;
+    height: 320px;
+    padding-top: 10px;
+}
+
+.info-card:hover{
+    background-color: lightgrey;
+}
+
+.info-row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+p {
+    overflow: hidden;
+    font-size:calc(8px + .5vw);
+
+}
+
+#homeContact {
+    background-color: #007bff;
+    height: 100px;
+    padding-top: 2px;
+    -webkit-box-shadow: 0 5px 5px #888888;
+    -moz-box-shadow: 0 5px 5px #888888;
+    box-shadow: 0 5px 5px #888888;
+}
+
+.nav-buttons {
+    color: white; !important;
+    background-color: #242424;
+    height: 55px;
+}
+
