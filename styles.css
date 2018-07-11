@@ -33,7 +33,7 @@
 }
 
 .info-row {
-    padding-top: 20px;
+    padding-top: 15px;
     padding-bottom: 20px;
 }
 
@@ -43,13 +43,15 @@ p {
 
 }
 
+#homeGuidance {
+    background-color: rgba(0, 123, 255, 0.77);
+    height: 50px;
+}
+
 #homeContact {
     background-color: #007bff;
     height: 100px;
     padding-top: 2px;
-    -webkit-box-shadow: 0 5px 5px #888888;
-    -moz-box-shadow: 0 5px 5px #888888;
-    box-shadow: 0 5px 5px #888888;
 }
 
 .nav-buttons {
