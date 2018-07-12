@@ -17,19 +17,19 @@
 </head>
 <body>
 <div class="home-image-container container-fluid" style="background-image: url(media/advice-advise-advisor-7096.jpg)">
-    <div class="row nav-bar">
+    <div class="row nav-bar justify-content-between">
         <div class="col justify-content-left">
             <img src="media/SDBCTransLogo.png" style="height: 70px; padding-left: 20px">
         </div>
-        <div class="col-auto nav-buttons rounded-bottom">
-            <nav class="navbar navbar-expand-lg">
+        <div class="col-auto rounded-bottom">
+            <nav class="navbar navbar-dark bg-dark navbar-expand-md">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="nav justify-content-center">
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link" href="./home.html">Home</a>
                         </li>
                         <li class="nav-item dropdown">
@@ -39,16 +39,17 @@
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
                                aria-haspopup="true" aria-expanded="false" href="#">Services</a>
                             <div class="dropdown-menu">
-                                <a href="#" class="dropdown-item">1</a>
-                                <a href="#" class="dropdown-item">2</a>
+                                <a href="#" class="dropdown-item">Services</a>
+                                <a href="#" class="dropdown-item">Group Counseling</a>
+                                <a href="#" class="dropdown-item">Individual Counseling</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
                                aria-haspopup="true" aria-expanded="false" href="#">Resources</a>
                             <div class="dropdown-menu">
-                                <a href="#" class="dropdown-item">1</a>
-                                <a href="#" class="dropdown-item">2</a>
+                                <a href="#" class="dropdown-item">Resources</a>
+                                <a href="#" class="dropdown-item">Events</a>
                             </div>
                         </li>
                         <li class="nav-item">
@@ -69,20 +70,40 @@
             <h1>Mason</h1>
             <h2><i>Small Business Development Center</i></h2>
             <h3>Serving Northern Virginia's small businesses through <em>FREE</em> counseling</h3>
-            <button class="btn btn-lg btn-primary" type="button">Learn more</button>
+            <a class="btn btn-lg btn-primary" href="about.html">Learn more</a>
         </div>
     </div>
 </div>
 <div class="container-fluid">
-    <div class="row align-items-center justify-content-center bottom-shadow" id="homeGuidance">
+    <div class="row align-items-center justify-content-center" id="homeGuidance">
         <div class="col text-center">
-            <h3><em>Providing guidance that will turn your ideas into an enterprise</em></h3>
+            <h3><em>Providing guidance that will turn your ideas into an enterprise...</em></h3>
         </div>
     </div>
+    <div class="row align-items-center justify-content-center bottom-shadow" id="homeNewsletter">
+        <div class="col-2"></div>
+        <div class="col text-center">
+            <h6>Enter your email to join our mailing list:</h6>
+        </div>
+        <div class="col text-center">
+            <form>
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Enter email...">
+                    </div>
+                    <div class="col">
+                        <button type="submit" class="btn btn-primary">Sign up</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-2"></div>
+    </div>
+
     <div class="row align-items-center justify-content-center bottom-shadow" id="homeContact">
         <div class="col text-center">
             <h4>Get in touch with our professionals today! Schedule a <em style="color: white">FREE</em> consultation.
-                <button class="btn btn-success" type="button">Get Started</button>
+                <a class="btn btn-success" href="https://clients.virginiasbdc.org/reg.aspx?mode=counsel&center=46110&subloc=0">Get Started</a>
             </h4>
         </div>
     </div>

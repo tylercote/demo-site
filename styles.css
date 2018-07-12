@@ -24,7 +24,7 @@
 .info-card {
     background-color: white;
     max-width: 250px;
-    height: 320px;
+    min-height: 320px;
     padding-top: 10px;
 }
 
@@ -33,6 +33,7 @@
 }
 
 .info-row {
+    min-height: 315px;
     padding-top: 15px;
     padding-bottom: 20px;
 }
@@ -45,19 +46,23 @@ p {
 
 #homeGuidance {
     background-color: rgba(0, 123, 255, 0.77);
-    height: 50px;
+    min-height: 50px;
 }
+
+#homeNewsletter {
+    color: white;
+    background-color: rgba(52, 58, 64, 0.77);
+    min-height: 80px;
+    -webkit-box-shadow: inset 2px 0px 31px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 2px 0px 31px 8px rgba(0,0,0,0.75);
+    box-shadow: inset 2px 0px 31px 8px rgba(0,0,0,0.75);
+}
+
 
 #homeContact {
     background-color: #007bff;
-    height: 100px;
+    min-height: 100px;
     padding-top: 2px;
-}
-
-.nav-buttons {
-    color: white; !important;
-    background-color: #242424;
-    height: 55px;
 }
 
 .tabslist {
@@ -78,4 +83,18 @@ p {
 .icon-height {
     height: 156px;
     width: 216px;
+}
+
+.navbar .dropdown-menu {
+    background-color: #343a40;
+}
+
+.navbar .dropdown.show a {
+    background-color: #343a40;
+    color: #007bff;
+}
+
+.navbar .dropdown.show a:hover {
+    background-color: #343a40;
+    color: #004cb4;
 }
